@@ -44,7 +44,7 @@ export default function Contact() {
 
                 <p>If You're Hiring</p>
                 <motion.a
-                    href="/Skyler-McLain-Resume.pdf"
+                    href="Resume_Sky.pdf"
                     download
                     className="resume-btn"
                     whileHover={{ scale: 1.05 }}

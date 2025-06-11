@@ -1,6 +1,6 @@
 import React from 'react';
 import Particles from 'react-tsparticles';
-import './ParticlesBackground.css'; // make sure you import this!
+import './ParticlesBackground.css';
 
 export default function ParticlesBackground() {
     return (

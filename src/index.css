@@ -71,8 +71,6 @@
 }
 
 
-
-/* nav */
 .navbar {
   position: fixed;
   top: 0;
@@ -125,7 +123,6 @@
   padding-bottom: 2px;
 }
 
-/* projects */
 
 .projects-section {
   padding: 4rem 2rem;
@@ -241,7 +238,6 @@
   text-align: center;
 }
 
-/* skills */
 
 .skills-section {
   padding: 4rem 2rem;
@@ -257,7 +253,7 @@
   margin-bottom: 2rem;
 }
 
-/* Flex container for skills + description side by side */
+
 .skills-container {
   display: flex;
   gap: 3rem;
@@ -266,18 +262,17 @@
   flex-wrap: wrap;
 }
 
-/* Skills grid with larger gaps between tags */
 .skills-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 1.25rem;
-  /* Increased gap from 0.75rem */
+
   max-width: 400px;
-  /* limit width for nice layout */
+
 }
 
-/* Skill tags */
+
 .skill-tag {
   padding: 0.5rem 1rem;
   border: 1px solid #00fff7;
@@ -290,10 +285,10 @@
   user-select: none;
   will-change: transform, box-shadow;
   perspective: 600px;
-  /* needed for 3D tilt effect */
+
 }
 
-/* Description text styling */
+
 .skills-description {
   max-width: 400px;
   color: #ccc;
@@ -303,7 +298,7 @@
   line-height: 1.6;
 }
 
-/* Responsive for smaller screens */
+
 @media (max-width: 700px) {
   .skills-container {
     flex-direction: column;

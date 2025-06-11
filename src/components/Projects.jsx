@@ -21,7 +21,7 @@ export default function Projects() {
                             animate={{ rotateY: flippedId === id ? 180 : 0 }}
                             transition={{ duration: 0.1 }}
                         >
-                            {/* Front */}
+
                             <div className="flip-card-front">
                                 <h3>{title}</h3>
                                 <p>{description}</p>
@@ -36,7 +36,7 @@ export default function Projects() {
                                 </div>
                             </div>
 
-                            {/* Back */}
+
                             <div className="flip-card-back">
                                 {screenshot && (
                                     <img

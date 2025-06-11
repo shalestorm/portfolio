@@ -21,7 +21,7 @@ const skills = [
     'Collaboration',
 ];
 
-// Parent container variants (unchanged)
+
 const containerVariants = {
     hidden: { opacity: 0, y: 30 },
     visible: {
@@ -52,22 +52,22 @@ const skillVariants = {
 };
 
 export default function Skills() {
-    // Track tilt rotation state for each tag, keyed by skill name
+
     const [tilt, setTilt] = useState({});
 
-    // Update tilt on mouse move relative to center of target element
+
     const handleMouseMove = (e, skill) => {
         const rect = e.currentTarget.getBoundingClientRect();
-        const x = e.clientX - rect.left; // x inside element
-        const y = e.clientY - rect.top;  // y inside element
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
 
-        // Calculate rotation max 10deg in either direction
-        const rotateX = ((y / rect.height) - 0.5) * 20; // invert Y axis for natural tilt
+
+        const rotateX = ((y / rect.height) - 0.5) * 20;
         const rotateY = ((x / rect.width) - 0.5) * 20;
 
         setTilt((prev) => ({
             ...prev,
-            [skill]: { rotateX: -rotateX, rotateY }, // negative rotateX flips tilt direction
+            [skill]: { rotateX: -rotateX, rotateY },
         }));
     };
 

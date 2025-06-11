@@ -2,15 +2,15 @@ import React, { useState, useEffect } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 
 export default function Navbar() {
-    const [active, setActive] = useState('hero');
+    const [active, setActive] = useState('Me');
     const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
         const onScroll = () => {
             setScrolled(window.scrollY > 50);
 
-            const sections = ['hero', 'projects', 'skills', 'contact'];
-            let current = 'hero';
+            const sections = ['Me', 'projects', 'skills', 'contact'];
+            let current = 'Me';
             sections.forEach((section) => {
                 const element = document.getElementById(section);
                 if (element && window.scrollY >= element.offsetTop - 60) {

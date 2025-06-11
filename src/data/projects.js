@@ -6,7 +6,7 @@ const projects = [
         tech: ['React', 'Javascript', 'HTML', 'CSS'],
         demoLink: 'https://pokemon.shalestorm.net',
         repoLink: 'https://github.com/shalestorm/pokemon-explorer',
-        screenshot: '/screenshots/pokemon.png',
+        screenshot: 'screenshots/pokemon.png',
 
 
     },
@@ -17,7 +17,7 @@ const projects = [
         tech: ['React', 'Python', 'JavaScript', 'HTML', 'CSS'],
         demoLink: 'https://optcg.shalestorm.net',
         repoLink: 'https://github.com/shalestorm/optcg-tracker',
-        screenshot: '/screenshots/onepiece.png',
+        screenshot: 'screenshots/onepiece.png',
     },
     {
         id: 3,
@@ -26,7 +26,7 @@ const projects = [
         tech: ['JavaScript', 'HTML', 'CSS'],
         demoLink: 'https://shalestorm.net/HackReactor/bootcamp_projects/js_drawing_app/',
         repoLink: 'https://github.com/shalestorm/HackReactor/tree/main/bootcamp_projects/js_drawing_app',
-        screenshot: '/screenshots/paint.png',
+        screenshot: 'screenshots/paint.png',
     },
     {
         id: 4,
@@ -35,7 +35,7 @@ const projects = [
         tech: ['JavaScript', 'HTML', 'CSS'],
         demoLink: 'https://shalestorm.net/HackReactor/bounty_poster/',
         repoLink: 'https://github.com/shalestorm/HackReactor/tree/main/bounty_poster',
-        screenshot: '/screenshots/bounty.png',
+        screenshot: 'screenshots/bounty.png',
     },
     {
         id: 5,
@@ -44,7 +44,7 @@ const projects = [
         tech: ['JavaScript', 'HTML', 'CSS'],
         demoLink: 'https://shalestorm.net/',
         repoLink: 'https://github.com/shalestorm/shalestorm.github.io',
-        screenshot: '/screenshots/social.png',
+        screenshot: 'screenshots/social.png',
     },
 
 ];

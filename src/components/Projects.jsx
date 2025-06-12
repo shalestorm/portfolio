@@ -79,7 +79,7 @@ export default function Projects() {
                                         style={{
                                             width: '100%',
                                             height: '100%',
-                                            objectFit: 'fill',
+                                            objectFit: 'cover',
                                             borderRadius: '8px',
                                         }}
                                     />

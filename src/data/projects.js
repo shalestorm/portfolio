@@ -21,6 +21,15 @@ const projects = [
     },
     {
         id: 3,
+        title: 'Skill Swap - Knowledge sharing SocialMedia platoform',
+        description: 'Skill Swap - a small social media platform to connect users to exchange knowledge',
+        tech: ['React', 'Python', 'Javascript', 'PostgreSQL', 'HTML', 'CSS'],
+        demoLink: 'https://skillswap.shalestorm.net',
+        repoLink: 'https://github.com/shalestorm/barter-buddy',
+        screenshot: 'screenshots/skillswap.png',
+    },
+    {
+        id: 4,
         title: 'Pixel Art - WebBased Drawing App',
         description: 'A pixel art drawing app with dynamic brush sizes and color palettes.',
         tech: ['JavaScript', 'HTML', 'CSS'],
@@ -29,7 +38,7 @@ const projects = [
         screenshot: 'screenshots/paint.png',
     },
     {
-        id: 4,
+        id: 5,
         title: 'One Piece Bounty Poster',
         description: 'A web app that takes in user set name, bounty amoung, and photo - to generate a Bounty Poster to download.',
         tech: ['JavaScript', 'HTML', 'CSS'],
@@ -38,7 +47,7 @@ const projects = [
         screenshot: 'screenshots/bounty.png',
     },
     {
-        id: 5,
+        id: 6,
         title: 'Social Media Presence Page',
         description: 'A person - gaming focused - social media presence page to house Social links, recent posts, and social embeds.',
         tech: ['JavaScript', 'HTML', 'CSS'],
